@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome To My Website</h1>
+
+  <!-- Form -->
+  <form id="signupForm"action="your-server-endpoint"method="POST">
+    <label>Name:</label>
+    <input type="text" id="name" placeholder="Enter your name">
+    <small class="error" id="nameError"></small>
+
+    <label>Email:</label>
+    <input type="text" id="email" placeholder="Enter your email">
+    <small class="error" id="emailError"></small>
+
+    <label>Password:</label>
+    <input type="password" id="password" placeholder="Enter password">
+    <small class="error" id="passwordError"></small>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Interactive buttons -->
+  <button id="changeColorBtn">Change Background</button>
+  <a href="#" id="showMessageLink">Click for a surprise</a>
+  <p id="message"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
